@@ -11,7 +11,7 @@ const MainStack = () => {
     <Stack.Navigator   screenOptions={{
       headerShown: false,
     }}>
-      <Stack.Screen name="Home" component={BottomTabNavigator} />
+      <Stack.Screen name="HomeScreen" component={BottomTabNavigator} />
     </Stack.Navigator>
   );
 };

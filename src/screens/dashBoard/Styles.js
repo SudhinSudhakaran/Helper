@@ -5,6 +5,10 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: theme.Colors.WHITE_COLOR,
   },
+  scrollContainer:{
+    flex:1,
+    backgroundColor: theme.Colors.WHITE_COLOR,
+  }
 });
 
 export default styles;

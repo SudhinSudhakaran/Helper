@@ -1,4 +1,4 @@
-import Header from "./Header";
+import OverViewComponent from "./OverViewComponent";
 
 
-export default Header
+export default OverViewComponent

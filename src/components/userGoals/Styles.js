@@ -7,8 +7,8 @@ const styles = StyleSheet.create({
     backgroundColor: theme.Colors.WHITE_COLOR,
     // height: responsiveHeight(10),
     width: '100%',
-    marginTop:responsiveHeight(3),
-  
+    marginTop: responsiveHeight(3),
+
   },
   contentContainer: {
     flex: 1,
@@ -16,48 +16,47 @@ const styles = StyleSheet.create({
   },
 
 
-titleText: {
-    fontFamily: theme.Fonts.INTER_700,
-    color: theme.Colors.OVER_VIEW_TEXT_COLOR,
-    fontSize: responsiveFontSize(1.8),
-    lineHeight: responsiveHeight(2),
-    paddingLeft: responsiveWidth(4)
-  },
- subTitleText: {
+  titleText: {
     fontFamily: theme.Fonts.INTER_400,
-    color: theme.Colors.HEADER_EMAIL_COLOR,
+    color: theme.Colors.WHITE_COLOR,
     fontSize: responsiveFontSize(1.8),
     lineHeight: responsiveHeight(2),
-    paddingLeft: responsiveWidth(4)
+
   },
-  time:{
-    fontFamily: theme.Fonts.INTER_700,
-    color: theme.Colors.HEADER_EMAIL_COLOR,
-    fontSize: responsiveFontSize(1.8),
-    lineHeight: responsiveHeight(3),
+  subTitleText: {
+    fontFamily: theme.Fonts.INTER_600,
+    color: theme.Colors.WHITE_COLOR,
+    fontSize: responsiveFontSize(3),
+    // lineHeight: responsiveHeight(2),
+
+
   },
+
   mainContainer: {
-    backgroundColor: theme.Colors.OVER_VIEW_BG_COLOR,
+    backgroundColor: theme.Colors.GOAL_PRIMARY_BG_COLOR,
     width: '100%',
-    height: responsiveHeight(20),
-    padding: responsiveHeight(2),
+    height: responsiveHeight(15),
+    padding: responsiveHeight(1.5),
     borderRadius: responsiveWidth(3),
     marginTop: responsiveWidth(3),
-    alignItems:'center',
+    alignItems: 'center',
     justifyContent: 'center',
   },
   innerContainer: {
     backgroundColor: theme.Colors.WHITE_COLOR,
-    flex:1,
+    flex: 1,
     borderRadius: responsiveWidth(1.8),
-    opacity: 0.4,
+    opacity: 0.25,
     borderWidth: 1,
     borderColor: theme.Colors.WHITE_COLOR,
-    padding:2,
+    padding: 2,
+
     position: 'absolute',
     width: '97%',
-    height: responsiveHeight(15),
+    height: responsiveHeight(11),
     alignSelf: 'center',
+
+
   },
 });
 

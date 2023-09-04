@@ -1,3 +1,14 @@
+
+/**
+ <---------------------------------------------------------------------------------------------->
+ * Purpose:  Header Component
+ * Created/Modified By: Sudhin Sudhakaran
+ * Created/Modified Date: 04-09-2023
+ * Steps:
+ * 1. Create UI
+ * 2. Use styles from Styles.js
+ <---------------------------------------------------------------------------------------------->
+ */
 import {Text, View} from 'react-native';
 import React from 'react';
 import styles from './Styles';

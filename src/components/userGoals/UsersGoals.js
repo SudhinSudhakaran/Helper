@@ -10,8 +10,9 @@ const UsersGoals = () => {
   return (
 
     <View style={styles.mainContainer}>
+      <View style={styles.innerContainer1} />
       <View style={styles.innerContainer} />
-        <View style={{opacity:1,zIndex:10}}>
+        <View style={{}}>
           <Text style={styles.titleText} >Betty's Goals</Text>
           <Text style={styles.subTitleText} >5/7 Goals Met</Text>
         </View>

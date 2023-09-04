@@ -9,7 +9,7 @@ import MedScreen from './meds/index';
 import ChatScreen from './meds/MedScreen';
 
 
-export const screens = {
+export const Screens = {
     Tasks,
     CareTeam,
     DashBoard,
@@ -17,5 +17,5 @@ export const screens = {
     SplashScreen,
     SignUpScreen,
     MedScreen,
- ChatScreen,
+    ChatScreen,
 }

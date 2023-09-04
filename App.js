@@ -1,9 +1,9 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import {navigators} from './src/navigators/index';
+import {Navigators} from './src/navigators/index';
 
 const App = () => {
-  return <navigators.RootStack />;
+  return <Navigators.RootStack />;
 };
 
 export default App;

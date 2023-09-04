@@ -5,7 +5,7 @@ import OverViewComponent from './overView/OverViewComponent';
 import UsersGoals from './userGoals/index';
 import PharmacyDetails from './PharmacyDetails/PharmacyDetails';
 import Article from './Articles/Article';
-export const components = {
+export const Components = {
   SafeAreaView,
   TabBarIcon,
   Header,

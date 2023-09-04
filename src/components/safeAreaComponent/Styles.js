@@ -7,6 +7,6 @@ export const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: theme.Colors.WHITE_COLOR,
-    paddingHorizontal: responsiveWidth(2.5)
+    paddingHorizontal: responsiveWidth(2.8)
   },
 });

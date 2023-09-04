@@ -4,7 +4,7 @@ import AuthStack from './AuthStack';
 import RootStack from './RootStack';
 
 
-export const navigators ={
+export const Navigators ={
    RootStack,
    MainStack,
    AuthStack

@@ -14,6 +14,7 @@ const OverViewComponent = () => {
       <Text style={styles.subTitleText}>You have devoted <Text style={styles.time}>4 hours</Text>  of care today</Text>
 
       <View style={styles.mainContainer}>
+        <View style={styles.innerContainer1} />
         <View style={styles.innerContainer} />
           <MoodList />
       

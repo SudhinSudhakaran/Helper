@@ -16,7 +16,8 @@ const Article = () => {
       description: 'Caring for a loved one can be a positive experience',
       image: theme.Images.ARTICLE_IMAGE1,
     },
-    {id: 2, 
+    {
+      id: 2,
       title: 'From the Community',
       description: 'Sandw Ych has your back on how to file & track your legal documents. Make sure you set up these with a loved one soon.Sandw Ych has your back on how to file & track your legal documents. Make sure you set up these with a loved one soon.Sandw Ych has your back on how to file & track your legal documents. Make sure you set up these with a loved one soon.Sandw Ych has your back on how to file & track your legal documents. Make sure you set up these with a loved one soon.',
       image: theme.Images.ARTICLE_IMAGE2,
@@ -33,7 +34,7 @@ const Article = () => {
         data={DATA}
         renderItem={renderItem}
         keyExtractor={item => item.id}
-showsVerticalScrollIndicator={false}
+        showsVerticalScrollIndicator={false}
       />
 
     </View>

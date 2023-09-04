@@ -50,14 +50,26 @@ titleText: {
     backgroundColor: theme.Colors.WHITE_COLOR,
     flex:1,
     borderRadius: responsiveWidth(1.8),
-    opacity: 0.4,
+    opacity: 0.25,
     borderWidth: 1,
     borderColor: theme.Colors.WHITE_COLOR,
-    padding:2,
+   
     position: 'absolute',
     width: '97%',
     height: responsiveHeight(15),
     alignSelf: 'center',
+  },
+  innerContainer1: {
+    backgroundColor:'transparent',
+    borderRadius: responsiveWidth(1.8),
+    borderWidth: 1,
+    borderColor: theme.Colors.WHITE_COLOR,
+    position: 'absolute',
+  
+    width: '97%',
+    height: responsiveHeight(15),
+    alignSelf: 'center',
+ 
   },
 });
 

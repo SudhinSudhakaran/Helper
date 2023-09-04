@@ -1,8 +1,8 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { screens } from '../screens/index';
+import { Screens } from '../screens/index';
 import { theme } from '../constants/theme';
 import { View, Image } from 'react-native';
-import { components } from '../components';
+import { Components } from '../components';
 import {
   responsiveHeight,
   responsiveWidth,
@@ -40,11 +40,11 @@ const BottomTabNavigator = () => {
       }}>
       <Tab.Screen
         name="CareTeam"
-        component={screens.CareTeam}
+        component={Screens.CareTeam}
         options={{
           tabBarIcon: ({ focused }) => {
             return (
-              <components.TabBarIcon
+              <Components.TabBarIcon
                 source={theme.Images.CARE_TEAM_ICON}
                 focused={focused}
               />
@@ -54,11 +54,11 @@ const BottomTabNavigator = () => {
       />
       <Tab.Screen
         name="Task"
-        component={screens.Tasks}
+        component={Screens.Tasks}
         options={{
           tabBarIcon: ({ focused }) => {
             return (
-              <components.TabBarIcon
+              <Components.TabBarIcon
                 source={theme.Images.TASK_ICON}
                 focused={focused}
               />
@@ -68,11 +68,11 @@ const BottomTabNavigator = () => {
       />
       <Tab.Screen
         name="Home"
-        component={screens.DashBoard}
+        component={Screens.DashBoard}
         options={{
           tabBarIcon: ({ focused }) => {
             return (
-              <components.TabBarIcon
+              <Components.TabBarIcon
                 source={theme.Images.HOME_ICON}
                 focused={focused}
               />
@@ -82,11 +82,11 @@ const BottomTabNavigator = () => {
       />
       <Tab.Screen
         name="MedScreen"
-        component={screens.MedScreen}
+        component={Screens.MedScreen}
         options={{
           tabBarIcon: ({ focused }) => {
             return (
-              <components.TabBarIcon
+              <Components.TabBarIcon
                 source={theme.Images.MEDS_ICON}
                 focused={focused}
               />
@@ -96,11 +96,11 @@ const BottomTabNavigator = () => {
       />
       <Tab.Screen
         name="ChatScreen"
-        component={screens.ChatScreen}
+        component={Screens.ChatScreen}
         options={{
           tabBarIcon: ({ focused }) => {
             return (
-              <components.TabBarIcon
+              <Components.TabBarIcon
                 source={theme.Images.CHAT_ICON}
                 focused={focused}
               />

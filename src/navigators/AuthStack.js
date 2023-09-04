@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {screens} from '../screens';
+import {Screens} from '../screens';
 
 const Stack = createNativeStackNavigator();
 
@@ -10,8 +10,8 @@ const AuthStack = () => {
     <Stack.Navigator   screenOptions={{
       headerShown: false,
     }}>
-      <Stack.Screen name="Login" component={screens.LoginScreen} />
-      <Stack.Screen name="SignUp" component={screens.SignUpScreen} />
+      <Stack.Screen name="Login" component={Screens.LoginScreen} />
+      <Stack.Screen name="SignUp" component={Screens.SignUpScreen} />
     </Stack.Navigator>
   );
 };

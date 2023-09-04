@@ -1,21 +1,23 @@
 import { ScrollView, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import { components } from '../../components';
+import { Components } from '../../components';
 import styles from './Styles'
 import { theme } from '../../constants/theme';
 const DashBoard = () => {
   return (
-    <components.SafeAreaView>
+    <Components.SafeAreaView>
       <View style={styles.container}>
-        <components.Header />
-        <ScrollView showsVerticalScrollIndicator={false} style={styles.scrollContainer}>
-          <components.OverViewComponent />
-          <components.UsersGoals />
-          <components.PharmacyDetails />
-          <components.Article />
+        <Components.Header />
+        <ScrollView
+          showsVerticalScrollIndicator={false}
+          style={styles.scrollContainer}>
+          <Components.OverViewComponent />
+          <Components.UsersGoals />
+          <Components.PharmacyDetails />
+          <Components.Article />
         </ScrollView>
       </View>
-    </components.SafeAreaView>
+    </Components.SafeAreaView>
 
   )
 }
